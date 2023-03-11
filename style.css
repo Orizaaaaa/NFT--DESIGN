@@ -1,0 +1,529 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,400;1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Tourney:wght@900&display=swap');
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    max-width: 1440;
+    height: 3098;
+    background-color: #000000 !important;
+    height: auto;
+
+}
+
+:root {
+    scroll-behavior: smooth;
+    overflow: auto;
+    height: 100%;
+}
+
+
+
+.navbar {
+    background-color: #141414;
+    height: 80;
+    font-size: 18 !important;
+}
+
+.navbar-brand {
+    font-size: 26 !important;
+    font-family: 'Tourney', cursive;
+
+}
+
+.img-navbar {
+    height: 48;
+    width: 51;
+}
+
+.wallet-button {
+    background-color: #5C3EAF !important;
+    border-radius: 24px !important;
+    height: 60px !important;
+    width: 184px !important;
+    padding-top: 14px !important;
+    font-size: 18px !important;
+
+}
+
+.wallet-icon {
+    height: 24px;
+    width: 24px;
+}
+
+/* curosel */
+
+.courosel {
+    width: 1290px !important;
+    height: 560px !important;
+    margin: auto;
+
+
+
+
+}
+
+.carousel-caption {
+    height: auto;
+}
+
+.courosel img {
+    width: 1290px;
+    height: 560px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: linear-gradient(0deg, rgba(14, 0, 19, 0.8), rgba(14, 0, 19, 0.8)), url(image.png);
+    border-radius: 0px 0px 20px 20px;
+}
+
+.carousel-caption p {
+    font-size: 100px;
+    margin-top: 160px !important;
+    margin-bottom: 90px;
+
+    font-family: 'Inter', sans-serif;
+
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 121px;
+    text-align: center;
+
+    background: linear-gradient(180deg, #5C3EAF 0%, #D279F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.search-corousel {
+    text-align: center !important;
+    margin-bottom: 20px;
+    width: 340px;
+    height: 56px !important;
+    left: 539px;
+    top: 566px;
+    border: none;
+    text-align: justify;
+    font-size: 20px;
+    outline: none;
+
+    border-radius: 27px;
+    padding-top: 10px;
+    background: linear-gradient(121.89deg, #FFFFFF -125.51%, rgba(255, 255, 255, 0) 114.64%);
+    margin: auto;
+
+}
+
+
+
+.search-corousel input {
+    outline: none;
+    border: none;
+    background: transparent;
+    text-align: center;
+    width: 138px;
+    margin-left: 2px;
+
+
+}
+
+
+
+input::placeholder {
+    color: #D9D9D9;
+}
+
+input:focus {
+    color: white;
+}
+
+
+
+
+.search-corousel svg {
+    margin-left: 0px;
+    width: 25px;
+    height: 25px;
+    background-color: none !important;
+    outline: none;
+    color: #FFFFFF !important;
+
+}
+
+.card-item-ending {
+    margin-top: 50px;
+    width: 553px;
+    height: 816px !important;
+    color: #FFFFFF;
+
+}
+
+.card-item-ending .card {
+    height: 816px;
+    background: linear-gradient(180deg, rgba(151, 71, 255, 0.47) -75.4%, rgba(210, 121, 245, 0.06) 100%);
+    border-radius: 32px;
+}
+
+.card-item-ending .card img {
+    width: 473px;
+    height: 360px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.image-fire img {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.image-fire p {
+    margin-top: 20px;
+    font-size: 32px;
+    margin-left: 18px;
+
+}
+
+.card-item-ending button {
+    border: none;
+    background-color: transparent;
+    margin-left: 125px;
+}
+
+.card-item-ending svg {
+    width: 32px;
+    height: 32px;
+    color: #D9D9D9;
+}
+
+.card-item-ending h5 {
+    font-size: 26px;
+    margin-left: 11px;
+
+}
+
+.card-item-ending .card-text {
+    margin-left: 11px;
+    font-size: 20px;
+}
+
+.tick-blue svg {
+    width: 20px !important;
+    height: 20px !important;
+    margin-left: 10px;
+    margin-top: 5px;
+
+
+}
+
+
+/* card 2 */
+.card-body a {
+    margin-top: 40px;
+}
+
+
+
+.new-auction {
+    margin-left: 170px;
+    margin-top: 50px;
+    width: 420px;
+    height: 722px;
+
+}
+
+.new-auction h2 {
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+
+.new-auction img {
+    width: 100px;
+    height: 100px;
+}
+
+.new-auction .card {
+    background: linear-gradient(137.8deg, rgba(255, 255, 255, 0.43) -196.41%, rgba(255, 255, 255, 0) 122.07%);
+    border-radius: 12px;
+    color: #FFFFFF;
+
+}
+
+.new-auction .card:hover {
+    cursor: pointer;
+}
+
+.text-in-card {
+    margin-left: 15px;
+}
+
+.current-bid-2 {
+    margin-top: 10px;
+    margin-left: 12px;
+    color: #D279F5;
+    font-size: 20px;
+}
+
+.current-bid-2 .remaining-time {
+    margin-left: 210px
+}
+
+.time-price {
+    font-size: 32px;
+    margin-left: 12px;
+}
+
+.time-price .time {
+    margin-left: 170px;
+}
+
+.button-card-left {
+    font-size: 18px;
+
+}
+
+.button-card-left .button1 {
+    margin-left: 12px;
+    color: #FFFFFF;
+    text-align: center;
+    width: 207px;
+    height: 60px;
+    left: 202px;
+    top: 1438px;
+    font-weight: 500;
+    padding-top: 15px;
+    background: #5C3EAF !important;
+    border-radius: 24px;
+}
+
+.button-card-left .button2 {
+    margin-left: 60px;
+    box-sizing: border-box;
+
+    width: 207px;
+    height: 60px;
+    left: 468px;
+    top: 1438px;
+    color: #FFFFFF;
+    font-weight: 500;
+    padding-top: 15px;
+    background: linear-gradient(199.4deg, rgba(255, 255, 255, 0.26) -100.6%, rgba(255, 255, 255, 0) 137.27%);
+    border: 1px solid #FFFFFF;
+    border-radius: 24px;
+}
+
+.new-auction .time-card2 {
+    margin-left: 130px;
+    font-size: 16px;
+    font-weight: 500px;
+    color: #D279F5;
+}
+
+
+
+.footer-card-2 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #D9D9D9;
+    margin-left: 220px;
+}
+
+.footer-text-card-2 svg {
+    margin-left: 30px
+}
+
+/* top seller */
+
+.top-seller {
+    margin-top: 60px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.top-seller h3 {
+    font-weight: 700;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.top-seller-several {
+    margin-top: 40px;
+}
+
+
+.top-seller-several img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: transform .3s
+}
+
+.text-top-seller {
+    margin-top: 16px;
+}
+
+/* categories */
+.categories {
+    margin-top: 100px;
+
+}
+
+.categories h2 {
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 38px;
+}
+
+
+.image-card-categories .card {
+    width: 328px;
+    height: 309px;
+    border-radius: 32px;
+    background: linear-gradient(180deg, rgba(151, 71, 255, 0.47) -75.4%, rgba(210, 121, 245, 0.06) 100%);
+}
+
+.image-card-categories img {
+    margin: 20px 20px 20px;
+    width: 288px;
+    height: 226px;
+    left: 70px;
+    top: 2011px;
+}
+
+.image-card-categories p {
+    font-weight: 700px;
+    font-size: 20px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+.image-card-categories :hover {
+    cursor: pointer;
+}
+
+.image-card-categories img:hover {
+    transform: scale(1.1);
+    transition: transform .4s;
+}
+
+
+/* footer */
+.footer-bottom .container {
+    margin-top: 100px;
+    max-width: 1373px;
+    height: 308px;
+    left: 0px;
+    top: 2729px;
+    background: rgba(92, 62, 175, 0.2);
+}
+
+.footer-bottom .card {
+    width: 420px;
+    height: 188px;
+    margin-right: 10px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    background-color: transparent;
+    border: none;
+    color: #FFFFFF;
+
+}
+
+.footer-bottom img {
+    width: 50.58px;
+    height: 47px;
+}
+
+.card-title h5 {
+    font-weight: 900;
+    font-size: 26px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.card-title p {
+    font-size: 18px;
+}
+
+/* link */
+
+.footer-bottom .link {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.footer-bottom .link a {
+    margin-top: 20px !important;
+    color: #FFFFFF;
+}
+
+
+/* email */
+.card .send-email {
+    background: #5C3EAF;
+    border-radius: 11px;
+    color: #FFFFFF;
+}
+
+
+
+.card .form-control {
+    background: rgba(255, 255, 255, 0.4);
+    border: 1px solid #FFFFFF;
+    border-radius: 11px;
+}
+
+/* footer copy right */
+
+.copyright .container {
+    max-width: 1373px;
+    height: 61px;
+    background-color: #5C3EAF;
+    color: #FFFFFF;
+    font-size: 18px;
+    padding-top: 17px;
+}
+
+.copyright .text3 {
+    margin-left: 30px;
+
+}
+
+.copyright .text2 {
+    margin-left: 800px;
+
+}
+
+.copyright .text1 {
+    margin-left: 50px;
+
+}
+
+
+/* MOBILE ----------------------------------------------------------------------------------------------- */
+.mobile {
+    display: none;
+}
+
+
+
+/* MOBILE ----------------------------------------------------------------------------------------------- */
+
+
+/* 
+tanyakan fungsi ini di chatGPT
+
+1. d-none d-md-block 
+
+
+*/

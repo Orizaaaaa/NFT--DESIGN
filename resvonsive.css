@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tourney:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Tourney:wght@900&display=swap');
+
+@media screen and (max-width: 400px) {
+
+    body {
+        height: 900px;
+        max-width: 390px;
+    }
+
+    /* Navbar */
+    .navbar {
+        height: 60px;
+        width: auto;
+        font-size: 16px !important;
+    }
+
+    .navbar-brand {
+        font-size: 18px !important;
+    }
+
+    .img-navbar {
+        height: 36px;
+        width: 39px;
+    }
+
+
+    /* Carousel */
+    .courosel {
+        width: 312px !important;
+        height: 142px !important;
+        margin: auto;
+        margin-top: 30px;
+
+
+
+
+    }
+
+
+    .carousel-caption {
+        height: 350px;
+        width: auto;
+        margin-top: 80px;
+        margin-right: 20px;
+    }
+
+    .courosel img {
+        width: 312px;
+        height: 142px;
+        background: linear-gradient(0deg, rgba(14, 0, 19, 0.8), rgba(14, 0, 19, 0.8)), url(image.png);
+        border-radius: 20px;
+    }
+
+    .carousel-caption p {
+        font-size: 30px;
+        width: fit-content;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        text-align: center;
+
+
+        background: linear-gradient(180deg, #5C3EAF 0%, #D279F5 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+
+    }
+
+
+
+
+
+
+    /* card 1 */
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .card-item-ending {
+        display: none;
+
+
+    }
+
+
+    /* card 2 */
+
+
+    .new-auction {
+
+        display: none;
+
+    }
+
+
+    /* mobile */
+    .mobile {
+        width: 390px;
+        height: 156px;
+        background-color: #5C3EAF;
+        color: #FFFFFF;
+        display: block;
+
+    }
+
+    .search-corousel {
+        display: none;
+    }
+
+
+
+
+
+
+
+
+}
